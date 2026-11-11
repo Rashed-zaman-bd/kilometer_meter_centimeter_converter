@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1794072632 source:c:\users\dfit\onedrive\documents\sentimeter_meter_kilometer\main.c
+	<stdio.h>
+	<stdlib.h>
+
