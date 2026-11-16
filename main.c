@@ -90,6 +90,33 @@ int main()
     return 0;
 }
 
+/*
+int main(void){
+
+    printf("Search Leap Year\n");
+
+    int num, result;
+
+    printf("Enter year: ");
+    if(scanf(" %d", &num) != 1){
+        printf("Invalid number\n");
+        return 1;
+    }
+
+        result = (num % 400 == 0) || (num % 4 == 0 && num % 100 !=0);
+
+        if(result){
+            printf("%d is leap year\n", num);
+        } else{
+            printf("%d is not leap year\n", num);
+        }
+
+
+
+    return 0;
+}
+*/
+
 
 /*
 int main(){
