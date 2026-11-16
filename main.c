@@ -92,6 +92,52 @@ int main()
 
 /*
 int main(void){
+    printf("Find a Event or Odd number\n");
+
+    int num, result;
+
+    printf("Enter your number: ");
+    if (scanf(" %d", &num) != 1 ){
+        printf("Invalid number.\n");
+        return 1;
+    }
+
+    result = num % 2 == 0;
+
+    if(result){
+        printf("%d is even number", num);
+    }else{
+        printf("%d is odd number", num);
+    }
+
+    return 0;
+}
+
+*/
+/*
+int main(void){
+    printf("Find a Even or Odd number\n");
+
+    int num;
+
+    printf("Enter your number: ");
+    if(scanf(" %d", &num) != 1 ){
+        printf("Invalid number\n");
+        return 1;
+    }
+
+    if(num % 2 == 0){
+
+        printf("%d is a Even number", num);
+    }else{
+        printf("%d id Odd number", num);
+    }
+    return 0;
+}
+*/
+
+/*
+int main(void){
 
     printf("Search Leap Year\n");
 
