@@ -171,6 +171,8 @@ int main(void){
 
 
 /*
+Temperature converter
+
 int main(){
     printf("Welcome to temperature converter\n");
 
@@ -220,6 +222,7 @@ int main(){
 */
 
 /*
+Calculator
 
 int main(void){
 
