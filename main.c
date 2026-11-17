@@ -1,5 +1,23 @@
 #include <stdio.h>
 
+int main(){
+    int num, reversed = 0;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    while(num != 0){
+        int digit = num % 10;
+        reversed = reversed * 10 + digit;
+        num /= 10;
+    }
+
+    printf("Reversed: %d\n", reversed);
+    return 0;
+}
+
+
+/*
 int main()
 {
     int choice;
@@ -89,6 +107,7 @@ int main()
 
     return 0;
 }
+*/
 
 /*
 Find even or odd number
